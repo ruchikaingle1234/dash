@@ -1,0 +1,93 @@
+.bg-child11,
+.bg15,
+.div25 {
+  position: absolute;
+  left: 0;
+  width: 145px;
+  height: 50px;
+}
+.bg-child11 {
+  top: 0;
+  border-radius: var(--br-3xs);
+
+  
+}
+.bg15,
+.div25 {
+  top: 29px;
+}
+.div25 {
+  top: 0;
+  display: inline-block;
+  width: 48px;
+  height: 14px;
+}
+.price-head,
+.price7,
+.price8,
+.price9 {
+  position: absolute;
+  top: 46px;
+  left: 20px;
+  width: 48px;
+  height: 14px;
+}
+.price-head,
+.price7,
+.price9 {
+  top: 0;
+  left: 10px;
+  width: 40px;
+}
+.price9 {
+  font-weight: 600;
+  display: inline-block;
+}
+.price-head,
+.price7 {
+  font-size: var(--font-size-base);
+}
+.price7 {
+  top: 505px;
+  left: 10px;
+  width: 145px;
+  height: 79px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}
+.pric{
+  position: relative;
+  top: 10px;
+ left: 10px;
+
+  background-color: rgb(228, 221, 221);
+ width: 145px;
+ height: 50px;
+ border: none;
+ border-radius: 10px;
+ color: black;
+}
+@media (max-width: 576px) {
+  .pric{
+  position: relative;
+  top:-20px;
+ left: 10px;
+  }
+  .price8{
+    position: relative;
+    left: 35px;
+  }
+}
+@media (max-width: 768px) {
+  .pric{
+    position: relative;
+    top:-20px;
+   left: -20px;
+    }
+    .price8{
+      position: relative;
+      left: 35px;
+    }
+}

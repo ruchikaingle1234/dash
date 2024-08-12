@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-nunito: Nunito;
+  --font-google-sans: "Google Sans";
+
+  /* font sizes */
+  --font-size-lg: 18px;
+  --font-size-xs: 12px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-5xl: 24px;
+  --font-size-3xs: 10px;
+  --font-size-2xs: 11px;
+
+  /* Colors */
+  --gray: #fafafb;
+  --color-gray-100: #030229;
+  --primary: #605bff;
+  --color-white: #fff;
+  --red: #d11a2a;
+  --color-dodgerblue: #5b93ff;
+  --color-black: #000;
+  --color-forestgreen: #2b9943;
+  --color-khaki: #ffd66b;
+  --color-lightsalmon: #ff8f6b;
+  --color-royalblue-100: #0072f9;
+  --color-royalblue-200: #0068dd;
+
+  /* Border radiuses */
+  --br-3xs: 10px;
+  --br-11xs: 2px;
+  --br-8xs: 5px;
+  --br-xs: 12px;
+  --br-5xs: 8px;
+  --br-11xl: 30px;
+  --br-9xl: 28px;
+}

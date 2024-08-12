@@ -1,0 +1,19 @@
+.add-a-new {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: var(--font-size-lg);
+  display: inline-block;
+  font-family: var(--font-nunito);
+  color: var(--color-gray-100);
+  text-align: left;
+  width: 168px;
+  height: 23px;
+}
+@media (max-width: 576px) {
+  .add-a-new{
+    position: absolute;
+  
+  left: -30px;
+  }
+}

@@ -1,0 +1,80 @@
+.arrow-btn-icon,
+.bg-child12,
+.bg16 {
+  position: absolute;
+  left: 0;
+  width: px;
+  height: 50px;
+}
+.bg-child12 {
+  top: 0;
+  border-radius: var(--br-3xs);
+  background-color: var(--gray);
+}
+.arrow-btn-icon,
+.bg16 {
+  top: 29px;
+}
+.arrow-btn-icon {
+  height: 10.13%;
+  width: 2.59%;
+  top: 63.29%;
+  right: 6.47%;
+  bottom: 26.58%;
+  left: 90.94%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+#apple {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  display: inline-block;
+  width: 308px;
+  height: 50px;
+  background-color: rgb(228, 221, 221);
+  border: none;
+  border-radius: 10px;
+
+}
+.brand,
+.brand-text,
+.brand1,
+.text1 {
+  position: absolute;
+  top: 46px;
+  left: 20px;
+  width: 309px;
+  height: 14px;
+}
+.brand,
+.brand-text,
+.brand1 {
+  top: 0;
+  left: 0;
+  width: 53px;
+}
+.brand1 {
+  font-weight: 600;
+  display: inline-block;
+}
+.brand,
+.brand-text {
+  font-size: var(--font-size-base);
+}
+.brand {
+  top: 425px;
+  left: 30px;
+  width: 309px;
+  height: 79px;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}
+@media (max-width: 576px) {
+  #apple {
+   width: 250px;
+  }
+}

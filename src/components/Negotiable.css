@@ -1,0 +1,49 @@
+.negotiable1 {
+  position: absolute;
+  top: 2px;
+  left: 35px;
+  font-weight: 600;
+  display: inline-block;
+  width: 72px;
+  height: 14px;
+}
+.group-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--primary);
+  width: 20px;
+  height: 20px;
+}
+.negotiable-parent,
+.vector-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 107px;
+  height: 20px;
+}
+/* .vector-icon {
+  height: 35.5%;
+  width: 9.53%;
+  top: 29%;
+  right: 85.79%;
+  bottom: 35.5%;
+  left: 4.67%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+} */
+.negotiable {
+  position: absolute;
+  top: 568px;
+  left: 205px;
+  width: 107px;
+  height: 20px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--color-gray-100);
+  font-family: var(--font-nunito);
+}

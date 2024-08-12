@@ -1,0 +1,24 @@
+.back-btn-icon {
+  position: absolute;
+  height: 3.11%;
+  width: 7.59%;
+  top: 13.44%;
+  right: 84.28%;
+  bottom: 83.44%;
+  left: 8.13%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.back-btn-icon:hover{
+  
+    display: none;
+  
+  
+}
+@media (max-width: 786px) {
+  .back-btn-icon {
+    position: relative;
+    left: 10px;
+  }
+}

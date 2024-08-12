@@ -1,0 +1,31 @@
+.image-icon {
+  position: absolute;
+  top: 186px;
+  left: 130px;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
+}
+.image-preview {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.image-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media (max-width: 576px) {
+  .image-icon{
+   position: absolute;
+   left: 100px;
+  }
+}
